@@ -105,6 +105,7 @@ fun MyTexts() {
     }
 }
 
+
 @Composable
 fun MyText(text: String, color: Color, style: TextStyle, lines: Int = Int.MAX_VALUE) {
     Text(text = text, color = color, style = style, maxLines = lines)
